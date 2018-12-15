@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
         <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-        <title>APICloud App</title>
+        <title>联善 APP</title>
         <link rel="stylesheet" type="text/css" href="./css/api.css" />
         <style>
             html,
@@ -254,7 +254,7 @@
         <header id="header">
             <div class="header-item header-item-act" id="home">
                 <div class="home-citylist open-win" win="html/citylist">
-                    <span class="currentCity">武汉</span>
+                    <span class="currentCity">常德</span>
                     <img src="./image/header/arrow_down_home.png">
                 </div>
                 <div class="home-search open-win" win="html/search">
@@ -267,7 +267,7 @@
             </div>
             <div class="header-item" id="groupbuy">
                 <div class="groupbuy-citylist open-win" win="html/citylist">
-                    <span class="currentCity">北京</span>
+                    <span class="currentCity">常德</span>
                     <img src="./image/header/arrow_down_groupbuy.png">
                 </div>
                 <div class="groupbuy-search open-win" win="html/search">
@@ -347,7 +347,7 @@
             api.addEventListener({
                 name: 'cityChange'
             }, function(ret, err) {
-                var city = $api.getStorage('city') || '北京';
+                var city = $api.getStorage('city') || '常德';
 
                 if (city.length > 3) {
                     city = city.substring(0, 3) + '...';

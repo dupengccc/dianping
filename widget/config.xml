@@ -1,9 +1,9 @@
 <widget id="A6916013433226" version="0.0.1">
-    <name>APICloud Demo App</name>
+    <name>联善App</name>
     <description>
         Example For APICloud.
     </description>
-    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+    <author email="dupengccc@163.com" href="www.51">
         Developer
     </author>
     <content src="index.html" />
